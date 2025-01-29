@@ -1,0 +1,47 @@
+/* External css */
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+/* Universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+h1{
+    font-family: "Playwrite IN", serif;
+}
+/* Element to element selectors */
+ul li{
+    color: blue;
+}
+ol li{
+    color: green;
+}
+
+/* id selector */
+#heading{
+    color: blue;
+}
+
+/* class selector */
+.heading{
+    color: green;
+}
+
+h1{
+    font-size: 64px; /* increasing font size*/
+    font-weight: 900; /* increasing font weight*/
+    color: red; /* changing font color*/
+    background: blue; /* changing bg color*/
+    text-align: center; /* centering the text, text-align:right; for right side the text */
+    text-shadow: 18px -22px 2px black; /* 1st value left and right, second value top and bottom, third blur, 4th value color*/
+    text-decoration: underline; /* overline, line-through*/
+}
+img{
+    width: 100%;
+    height: 50vh;
+}
+
+/* css colors, box model, diff b/w visibility hidden and display none , css backgrounds */
