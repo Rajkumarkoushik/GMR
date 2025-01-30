@@ -34,11 +34,7 @@ h1{
     font-size: 64px; /* increasing font size*/
     font-weight: 900; /* increasing font weight*/
     color: hsl(167, 43%, 67%); /* changing font color*/
-    background-image: url("./HAPPY_KENNEL_PET_ZONE_LOGO_1-1__1_-removebg-preview.png"); /* changing bg color*/
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    background-attachment: fixed; 
+    background: red;/* changing bg color*/
     text-align: center; /* centering the text, text-align:right; for right side the text */
     text-shadow: 18px -22px 2px black; /* 1st value left and right, second value top and bottom, third blur, 4th value color*/
     text-decoration: underline; /* overline, line-through*/
@@ -48,24 +44,43 @@ img{
     height: 50vh;
 }
 
-/* css colors, box model, diff b/w visibility hidden and display none , css backgrounds */
-
-/* RGB- 0-255, HEXadecimal # a-f and 0-255, HSL Hue 0 to 360deg,Saturation 0-100%, lightning 0-100%*/
-
-/* Box model  */
+/* Css colors RGB(red, green, blue)0-255, Hex(Hexadecimal)# a-f and 0-255, HSL(Hue,Saturation,Lightning)0-360deg,0-100% and 0-100% */
 h4{
-    background: green;
-    color: #fff;
-    border: 15px groove #536453;
-    border-radius: 26px;
-    width: 30%;
-    /* padding: 20px 40px; */
-    margin: 0 auto;
-    /* height: 200px; */
-    text-align: center;
-    /* border-left: 5px dotted green; */
-    /* border-top: 1px solid red; */
-    /* border-bottom: none; */
-    box-shadow: 12px -9px 12px 3px black;
-    /* display: none; */
+    color: rgb(243, 20, 35);/* RGB Colors*/
+    color: hsl(243, 20%, 35%);/* HSL Colors*/
+    color: #ad34ce;/* HEX Colors*/
+}
+
+/* Css Background properties */
+h5{
+    background-image: url("./HAPPY_KENNEL_PET_ZONE_LOGO_1-1__1_-removebg-preview.png");/* Image in background*/
+    height: 100vh;/* TO setting height for the element*/
+    background-repeat: no-repeat;/* TO remove the repeated images*/
+    background-size: cover;/* to set size of the bg img and also gave values 100vw and 100vh*/
+    background-attachment: fixed;/* to set the bg img fixed*/
+}
+
+/* diff b/w visibility hidden and display none */
+h6{
+    display: none; /* to hide the both Element and space */
+    display: block; /* using for hidden element to visible*/
+    visibility: hidden; /* Only the element will be hidden*/
+    visibility: visible; /* using for hidden element to visible*/
+}
+
+/* Box model properties */
+h1{
+    border: 5px solid #ed45ac;/* To set the border to the element dotted,dashed,groove and double*/
+    border-top: 5px dotted #ed76ac;/* Using this we can set the diff top border*/
+    border-bottom: none;/* Using this we can hide the bottom border*/
+    border-radius: 30px;/* Setting border radius corners*/
+    text-align: center; /* centered the text*/
+    padding: 20px 30px 40px 50px;/* Space inside the element top,right,bottom and left*/
+    margin: 20px 30px 40px 50px;/* Space outside the element top,right,bottom and left*/
+    margin: 0 auto;/* centering the entire box*/
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0);/* shadow for the box left and right, top and bottom, blur, width*/
+    width: 30%;/* Setting width*/
+    height: 40vh;/* Setting height*/
+    color: #436677;
+    background-color: #634782;
 }
