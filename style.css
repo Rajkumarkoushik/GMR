@@ -26,15 +26,19 @@ ol li{
 }
 
 /* class selector */
-.heading{
+/* .heading{
     color: green;
-}
+} */
 
 h1{
     font-size: 64px; /* increasing font size*/
     font-weight: 900; /* increasing font weight*/
-    color: red; /* changing font color*/
-    background: blue; /* changing bg color*/
+    color: hsl(167, 43%, 67%); /* changing font color*/
+    background-image: url("./HAPPY_KENNEL_PET_ZONE_LOGO_1-1__1_-removebg-preview.png"); /* changing bg color*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed; 
     text-align: center; /* centering the text, text-align:right; for right side the text */
     text-shadow: 18px -22px 2px black; /* 1st value left and right, second value top and bottom, third blur, 4th value color*/
     text-decoration: underline; /* overline, line-through*/
@@ -45,3 +49,23 @@ img{
 }
 
 /* css colors, box model, diff b/w visibility hidden and display none , css backgrounds */
+
+/* RGB- 0-255, HEXadecimal # a-f and 0-255, HSL Hue 0 to 360deg,Saturation 0-100%, lightning 0-100%*/
+
+/* Box model  */
+h4{
+    background: green;
+    color: #fff;
+    border: 15px groove #536453;
+    border-radius: 26px;
+    width: 30%;
+    /* padding: 20px 40px; */
+    margin: 0 auto;
+    /* height: 200px; */
+    text-align: center;
+    /* border-left: 5px dotted green; */
+    /* border-top: 1px solid red; */
+    /* border-bottom: none; */
+    box-shadow: 12px -9px 12px 3px black;
+    /* display: none; */
+}
