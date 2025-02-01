@@ -2,20 +2,20 @@
 /* Font family */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
 /* Universal selector */
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 /* Element selector */
 h1{
     font-family: "Playwrite IN", serif;
 }
 /* Element to element selectors */
-ul li{
+/* ul li{
     color: blue;
-}
+} */
 ol li{
     color: green;
 }
@@ -83,4 +83,99 @@ h1{
     height: 40vh;/* Setting height*/
     color: #436677;
     background-color: #634782;
+}
+
+/* css positions static,relative,fixed,absolute,sticky */
+button{
+  background-color: #744563;
+  color: #aceade;
+  padding: 10px 20px;
+}
+button:hover{
+    background-color: #aceade;
+    color: #744563;
+}
+.division{
+    position: relative;
+}
+.image1{
+    width: 15%;
+    height: 144px;
+    position: absolute;
+    top: -73px;
+    left: 0px;
+}
+.image1:hover{
+    width: 25%;
+    height: 244px;
+}
+.image2{
+    width: 15%;
+    height: 144px;
+    position: absolute;
+    top: -73px;
+    right: 0px;
+}
+.image3{
+    width: 15%;
+    height: 144px;
+    position: absolute;
+    bottom: -73px;
+    left: 0px;
+    bottom: 0px;
+}
+.image4{
+    width: 15%;
+    height: 144px;
+    position: absolute;
+    bottom: -73px;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Pseudo classes :hover,:checked :focus and elements ::after ::before */
+p:hover{
+    font-size: 40px;
+}
+input[type="text"]:focus{
+    background-color: red;
+}
+input[type="radio"]:checked{
+    width: 50px;
+    height: 50px;
+}
+.ul li:first-child{
+    color: red;
+}
+.ul li:last-child{
+    color: green;
+}
+.ul li:nth-child(2){
+    color: #ed45ac;
+}
+
+li::before{
+    content: "$$$$$$";
+}
+li::after{
+    content: "&&&&&&";
+}
+p::first-line{
+    background-color: red;
+}
+p::first-letter{
+    font-size: 50px;
+    color: green;
+}
+::selection{
+    color: green;
+    background-color: red;
+}
+li::marker{
+    color: red;
+    font-size: 30px;
+}
+
+div img:nth-child(4){
+    width: 200px;
 }
