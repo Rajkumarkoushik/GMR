@@ -1,0 +1,61 @@
+/* Laptop view */
+@media (max-width: 1200px) {
+    .about-img img{
+        width: 500px;
+        height: auto;
+    }
+
+}
+/* Tab view */
+@media (max-width: 1023px) {
+    .header-main {
+        display: none;
+    }
+    .flex-direction{
+        flex-direction: column;
+        align-items: normal ;
+    }
+}
+/* Mobile view */
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav-img img {
+        width: 100%;
+        height: 60px;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+    }
+    table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        left: 0px;
+        top: 90px;
+        align-items: start;
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        font-size: 30px;
+    }
+    .res-btn{
+        display: none;
+    }
+    .vision-mission-main img{
+        width: 100%;
+    }
+    .form{
+        flex-direction: column;
+    }
+    .banner-main img{
+        width: 100%;
+        height: 50vh;
+    }
+}
