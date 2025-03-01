@@ -39,7 +39,8 @@ p {
     --secondary-color: #F4BD5A;
 }
 
-h1,
+
+
 h2,
 h3,
 h4,
@@ -257,3 +258,10 @@ textarea{
     height: 100px;
 }
 /* 9. Contact section ends. */
+
+.img{
+    display: none;
+}
+.img-active{
+    display: block;
+}
