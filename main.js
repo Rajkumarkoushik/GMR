@@ -114,4 +114,16 @@ obj2.name = "Rajkumar";
 console.log(obj1.name); // "Rajkumar" (original object is modified)
 console.log(obj2.name); // "Rajkumar"
 
+// String extracting slice,substring and substr .......extract a part of string and return a new string.
+
+// Slice
+const slice = "web, app, dm, aws, developer";
+const strings = slice.slice(3, 6);// slice have two values one is starting value and another is ending value. (-13, -5)
+console.log(strings); 
+// substring() is similar to slice().The difference is that start and end values less than 0 are treated as 0 in substring().
+// substr() is similar to slice().The difference is that the second parameter specifies the length of the extracted part.
+
+
+
+
 
